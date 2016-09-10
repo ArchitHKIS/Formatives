@@ -19,6 +19,7 @@ public class CoinTest extends JPanel
   {
     Image heads = (new ImageIcon(this.getClass().getResource("/heads.gif"))).getImage();
     Image tails = (new ImageIcon(this.getClass().getResource("/tails.gif"))).getImage();
+    // gets images from resources folder in Formative repository
     coin = new Coin(heads, tails);
 
     Timer clock = new Timer(2000, this);
