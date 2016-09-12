@@ -1,6 +1,4 @@
 import java.util.*;
-import java.lang.Math;
-
 public class RandomNumberGenerator {
 public static void main(String[] args) {
       final int totalPoints = 4;
@@ -37,5 +35,4 @@ public static void main(String[] args) {
       }
 
       System.out.println("You have " + poto + " correct numbers!");
-
 }}}
